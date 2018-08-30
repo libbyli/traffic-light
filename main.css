@@ -1,0 +1,19 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 200px;
+  height: 500px;
+  float: left;
+};
+
+.circle {
+	width: 100px;
+	height: 100px;
+  background: black;
+  margin: 5px;
+  display: block;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+};
