@@ -1,0 +1,24 @@
+{
+  "name": "traffic-light",
+  "version": "1.0.0",
+  "description": "traffic light made with javascript",
+  "main": "main.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libbyli/traffic-light.git"
+  },
+  "author": "libby li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/libbyli/traffic-light/issues"
+  },
+  "homepage": "https://github.com/libbyli/traffic-light#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
