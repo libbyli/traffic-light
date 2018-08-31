@@ -9,10 +9,16 @@
   <script src="main.js"></script>
 </head>
 <body>
-  <div id="container">
-    <div id="red" class="circle" onclick=clickLight(event.target.id)></div>
-    <div id="yellow" class="circle" onclick=clickLight(event.target.id)></div>
-    <div id="green" class="circle" onclick=clickLight(event.target.id)></div>
+  <div class="container">
+    <div id="traffic-light">
+      <div id="red" class="circle" onclick=onLightClick(event.target.id)></div>
+      <div id="yellow" class="circle" onclick=onLightClick(event.target.id)></div>
+      <div id="green" class="circle" onclick=onLightClick(event.target.id)></div>
+    </div>
+    <div id="buttons">
+      <h1>Traffic Light</h1>
+      <button onclick=onButtonClick()>Start</button>
+    </div>
   </div>
 </body>
 </html>
